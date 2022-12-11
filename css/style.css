@@ -1,18 +1,37 @@
 /* Essential */
+h1 {
+    text-align: center;
+}
+
+/* Hero */
+.hero {
+    margin: 50px;
+}
+
+/* Main */
 main {
     margin: 50px;
 }
 
-/* Jumbotron  */
+/* Jumbotron */
 .jumbotron {
     background-image: url(../images/portfolio.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(100vh - 230px);
+    height: calc(100vh - 300px);
     color: white;
-    min-height: 300px;
+    min-height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+  }
+
+  footer a:hover {
+        background-color: #f8f9fa;
   }
