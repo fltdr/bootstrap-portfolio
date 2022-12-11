@@ -1,17 +1,30 @@
 /* Essential */
-h1 {
+h1, h2 {
     text-align: center;
 }
 
 /* Hero */
 .hero {
     margin: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 /* Main */
 main {
     margin: 50px;
 }
+
+.title {
+    margin: 50px;
+}
+
+
+/* About */
+.about {
+    margin: 50px;
+}
+
 
 /* Jumbotron */
 .jumbotron {
@@ -30,6 +43,7 @@ main {
   /* Footer */
   footer {
     text-align: center;
+    margin: 50px;
   }
 
   footer a:hover {
